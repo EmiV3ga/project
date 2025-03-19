@@ -6,12 +6,12 @@ export function About() {
     <div className="max-w-4xl mx-auto space-y-8">
       <div className="text-center">
         <img
-          src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&h=400"
-          alt="Profile"
+          src="../dist/assets/Perfil.jpeg"
+          alt="Emiliano Vega"
           className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
         />
-        <h1 className="text-3xl font-bold dark:text-white">John Doe</h1>
-        <p className="text-xl text-gray-600 dark:text-gray-300">Full Stack Developer</p>
+        <h1 className="text-3xl font-bold dark:text-white">Emiliano Vega</h1>
+        <p className="text-xl text-gray-600 dark:text-gray-300">Pentester - Full Stack Developer</p>
       </div>
 
       <section className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
@@ -56,7 +56,7 @@ export function About() {
         <h2 className="text-2xl font-bold mb-4 dark:text-white">Contact</h2>
         <div className="flex justify-center space-x-6">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/EmiV3ga"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400"
@@ -65,7 +65,7 @@ export function About() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/emiliano1/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400"
@@ -74,7 +74,7 @@ export function About() {
             LinkedIn
           </a>
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:emiliano.dimartino.vega@gmail.com"
             className="flex items-center text-gray-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400"
           >
             <Mail className="h-6 w-6 mr-2" />
