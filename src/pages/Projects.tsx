@@ -8,7 +8,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800',
     technologies: ['React', 'TypeScript', 'Tailwind CSS'],
     githubUrl: 'https://github.com/EmiV3ga',
-    liveUrl: 'emilianodev.netlify.app',
+    liveUrl: 'https://emilianodev.netlify.app/',
   },
   {
     title: 'Project 2',
