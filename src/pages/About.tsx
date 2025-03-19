@@ -5,8 +5,9 @@ export function About() {
   return (
     <div className="max-w-4xl mx-auto space-y-8">
       <div className="text-center">
-        <img
-          src="../../dist/assets/Perfil.png"
+          <img
+          src="../../dist/assets/perfil.png"
+
           alt="Emiliano Vega"
           className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
         />
