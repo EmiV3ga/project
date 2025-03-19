@@ -3,19 +3,19 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'Description of your first project',
+    title: 'Portfolio',
+    description: 'A web application that demonstrates my backend development skills using Node.js, Express, and MongoDB. Includes user authentication and CRUD operations.',
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800',
     technologies: ['React', 'TypeScript', 'Tailwind CSS'],
-    githubUrl: '#',
-    liveUrl: '#',
+    githubUrl: 'https://github.com/EmiV3ga',
+    liveUrl: 'emilianodev.netlify.app',
   },
   {
     title: 'Project 2',
-    description: 'Description of your second project',
+    description: 'A web application that demonstrates my backend development skills using Node.js, Express, and MongoDB. Includes user authentication and CRUD operations.',
     image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800',
     technologies: ['Node.js', 'Express', 'MongoDB'],
-    githubUrl: '#',
+    githubUrl: 'https://github.com/EmiV3ga',
     liveUrl: '#',
   },
 ];
