@@ -12,6 +12,11 @@ export default function About() {
       <Background3D />
       <div className="max-w-3xl mx-auto relative z-10">
         <div className="text-center mb-12">
+        <img
+          src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&h=400"
+          alt="Profile"
+          className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
+        />
           <h1 className="text-4xl font-bold text-neutral mb-4">About Me</h1>
           <p className="text-xl text-accent">Pentester - Full Stack Developer</p>
         </div>
