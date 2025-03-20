@@ -11,7 +11,7 @@ export default function Home() {
           <div className="flex-grow flex items-center justify-center">
             <div className="text-center space-y-6 p-8">
               <h1 className="text-6xl font-bold text-neutral">Emiliano Vega</h1>
-              <p className="text-2xl text-accent">Pentester - Full Stack Developer</p>
+              <p className="text-xl text-primary dark:text-neutral mb-8">Pentester • Full Stack Developer • UI/UX Designer • Tech Enthusias</p>
               <div className="flex justify-center space-x-6">
                 <a href="https://github.com/yourusername" className="text-neutral hover:text-highlight transition-colors">
                   <Github size={24} />
