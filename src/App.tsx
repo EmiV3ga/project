@@ -1,33 +1,71 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Layout } from './components/Layout';
-import { Home } from './pages/Home';
-import { Projects } from './pages/Projects';
-import { About } from './pages/About';
-import { Login } from './pages/Login';
-import { NewPost } from './pages/NewPost';
-import { ProtectedRoute } from './components/ProtectedRoute';
+import { useEffect, useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { supabase } from './lib/supabase';
+import { ThemeProvider } from './context/ThemeContext';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Projects from './components/Projects';
+import About from './components/About';
+import Contact from './components/Contact';
+import Auth from './components/Auth';
+import Footer from './components/Footer';
 
 function App() {
+  const [session, setSession] = useState(null);
+
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setSession(session);
+    });
+
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, session) => {
+      setSession(session);
+    });
+
+    return () => subscription.unsubscribe();
+  }, []);
+
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="about" element={<About />} />
-          <Route path="login" element={<Login />} />
-          <Route
-            path="new-post"
-            element={
-              <ProtectedRoute>
-                <NewPost />
-              </ProtectedRoute>
-            }
-          />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <ThemeProvider>
+      <Router>
+        <div className="dark:bg-primary bg-white text-neutral min-h-screen flex flex-col">
+          <Navbar />
+          <main className="flex-grow">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route
+                path="/login"
+                element={
+                  !session ? (
+                    <Auth />
+                  ) : (
+                    <Navigate to="/dashboard" replace />
+                  )
+                }
+              />
+              <Route
+                path="/dashboard"
+                element={
+                  session ? (
+                    <div className="p-8 pt-20">
+                      <h1 className="text-4xl font-bold">Dashboard</h1>
+                    </div>
+                  ) : (
+                    <Navigate to="/login" replace />
+                  )
+                }
+              />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </Router>
+    </ThemeProvider>
   );
 }
 
