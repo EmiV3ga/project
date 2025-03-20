@@ -17,8 +17,8 @@ export default function About() {
           alt="Profile"
           className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
         />
-          <h1 className="text-4xl font-bold text-neutral mb-4">About Me</h1>
-          <p className="text-xl text-accent">Pentester - Full Stack Developer</p>
+          <h1 className="text-4xl font-bold text-neutral mb-4">Emiliano Vega</h1>
+          <p className="text-xl text-accent">Pentester • Full Stack Developer • UI/UX Designer • Tech Enthusias</p>
         </div>
         
         <div className="bg-secondary/80 backdrop-blur-sm rounded-lg p-8 mb-12">
