@@ -4,7 +4,7 @@ Este es el repositorio de mi **portafolio personal**, desarrollado con **React**
 
 ## 🌐 Demo
 
-Puedes ver el portafolio en línea aquí: [tu-portfolio.com](https://tu-portfolio.com)
+Puedes ver el portafolio en línea aquí: [emilianodev.netlify.app](https://emilianodev.netlify.app/)
 
 ## 🚀 Tecnologías Utilizadas
 
@@ -72,11 +72,10 @@ Este proyecto está bajo la licencia **MIT**. Siéntete libre de usarlo, modific
 ## ✨ Contacto
 
 Si quieres contactarme o ver más sobre mi trabajo:
-- 🌐 [Su Portafolio](https://jmendiola.netlify.app)
+- 🌐 [Su Portafolio](https://emilianodev.netlify.app/)
 - 📧 Email: [emiliano.dimartino.vega@gmail.com](mailto:emiliano.dimartino.vega@gmail.com)
 - 🐦 Twitter: [@EmiV3ga1](https://x.com/EmiV3ga1)
 - 💼 LinkedIn: [linkedin.com/in/emiliano1](https://www.linkedin.com/in/emiliano1/)
 
 ---
-¡Gracias por visitar mi portafolio! 🚀
 ¡Gracias por visitar mi portafolio! 🚀
