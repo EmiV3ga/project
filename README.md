@@ -67,7 +67,7 @@ Si deseas clonar este proyecto y ejecutarlo en tu entorno local, sigue estos pas
 
 ## 📜 Licencia
 
-Este proyecto está bajo la licencia **MIT**. Siéntete libre de usarlo, modificarlo y adaptarlo según tus necesidades.
+Este proyecto está bajo la licencia **Personalizada**. Siéntete libre de usarlo, modificarlo y adaptarlo según tus necesidades.
 
 ## ✨ Contacto
 
