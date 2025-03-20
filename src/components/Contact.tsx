@@ -14,18 +14,18 @@ export default function Contact() {
         <div className="bg-secondary/80 backdrop-blur-sm rounded-lg p-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:emiliano.dimartino.vega@gmail.com"
               className="flex items-center space-x-4 p-4 rounded-lg hover:bg-primary/20 transition-colors"
             >
               <Mail size={24} className="text-highlight" />
               <div>
                 <h3 className="font-semibold text-neutral">Email</h3>
-                <p className="text-accent">your.email@example.com</p>
+                <p className="text-accent">emiliano.dimartino.vega@gmail.com</p>
               </div>
             </a>
             
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/emiliano1/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-4 p-4 rounded-lg hover:bg-primary/20 transition-colors"
@@ -38,7 +38,7 @@ export default function Contact() {
             </a>
             
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/EmiV3ga"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-4 p-4 rounded-lg hover:bg-primary/20 transition-colors"
@@ -57,7 +57,7 @@ export default function Contact() {
               <Phone size={24} className="text-highlight" />
               <div>
                 <h3 className="font-semibold text-neutral">Phone</h3>
-                <p className="text-accent">+1 (234) 567-890</p>
+                <p className="text-accent">+54 (2494)525601</p>
               </div>
             </a>
           </div>
