@@ -16,6 +16,22 @@ const projects = [
     technologies: ["Node.js", "Express", "MongoDB"],
     github: "https://github.com/yourusername/project2",
     demo: "https://your-project2.com"
+  },
+  {
+    title: "Project 3",
+    description: "A web application that demonstrates my backend development skills using Node.js, Express, and MongoDB. Includes user authentication and CRUD operations.",
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800",
+    technologies: ["Node.js", "Express", "MongoDB"],
+    github: "https://github.com/yourusername/project2",
+    demo: "https://your-project2.com"
+  },
+  {
+    title: "Project 4",
+    description: "A web application that demonstrates my backend development skills using Node.js, Express, and MongoDB. Includes user authentication and CRUD operations.",
+    image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800",
+    technologies: ["Node.js", "Express", "MongoDB"],
+    github: "https://github.com/yourusername/project2",
+    demo: "https://your-project2.com"
   }
 ];
 
