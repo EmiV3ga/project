@@ -13,13 +13,13 @@ export default function Home() {
               <h1 className="text-6xl font-bold text-neutral">Emiliano Vega</h1>
               <p className="text-xl text-primary dark:text-neutral mb-8">Pentester • Full Stack Developer • UI/UX Designer • Tech Enthusias</p>
               <div className="flex justify-center space-x-6">
-                <a href="https://github.com/yourusername" className="text-neutral hover:text-highlight transition-colors">
+                <a href="https://github.com/EmiV3ga" className="text-neutral hover:text-highlight transition-colors">
                   <Github size={24} />
                 </a>
-                <a href="https://linkedin.com/in/yourusername" className="text-neutral hover:text-highlight transition-colors">
+                <a href="https://www.linkedin.com/in/emiliano1/" className="text-neutral hover:text-highlight transition-colors">
                   <Linkedin size={24} />
                 </a>
-                <a href="mailto:your.email@example.com" className="text-neutral hover:text-highlight transition-colors">
+                <a href="mailto:emiliano.dimartino.vega@gmail.com" className="text-neutral hover:text-highlight transition-colors">
                   <Mail size={24} />
                 </a>
               </div>
