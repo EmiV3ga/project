@@ -1,33 +1,33 @@
 {
-    "nav": {
-      "home": "Home",
-      "projects": "Projects",
-      "about": "About",
-      "contact": "Contact",
-      "login": "Login"
-    },
-    "hero": {
-      "title": "Emiliano Vega",
-      "subtitle": "Pentester • Full Stack Developer • UI/UX Designer"
-    },
-    "about": {
-      "title": "About Me",
-      "description": "I'm a passionate full-stack developer with expertise in modern web technologies. I love building scalable applications and learning new technologies.",
-      "skills": {
-        "title": "Skills",
-        "frontend": "Frontend",
-        "backend": "Backend",
-        "tools": "Tools"
-      }
-    },
-    "contact": {
-      "title": "Contact Me",
-      "subtitle": "Let's work together!",
-      "email": "Email",
-      "phone": "Phone",
-      "social": {
-        "github": "GitHub",
-        "linkedin": "LinkedIn"
-      }
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login"
+  },
+  "hero": {
+    "title": "Emiliano Vega",
+    "subtitle": "Pentester • Full Stack Developer • UI/UX Designer"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a passionate full-stack developer with expertise in modern web technologies. I love building scalable applications and learning new technologies.",
+    "skills": {
+      "title": "Skills",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools"
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Let's work together!",
+    "email": "Email",
+    "phone": "Phone",
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
     }
   }
+}

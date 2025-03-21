@@ -13,7 +13,6 @@
     "@react-three/drei": "^9.99.0",
     "@react-three/fiber": "^8.15.16",
     "@supabase/supabase-js": "^2.39.7",
-    "@types/node": "^22.13.11",
     "framer-motion": "^11.0.5",
     "i18next": "^23.10.1",
     "i18next-browser-languagedetector": "^7.2.0",

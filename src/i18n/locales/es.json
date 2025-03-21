@@ -1,33 +1,33 @@
 {
-    "nav": {
-      "home": "Inicio",
-      "projects": "Proyectos",
-      "about": "Sobre Mí",
-      "contact": "Contacto",
-      "login": "Ingresar"
-    },
-    "hero": {
-      "title": "Emiliano Vega",
-      "subtitle": "Pentester • Desarrollador Full Stack • Diseñador UI/UX"
-    },
-    "about": {
-      "title": "Sobre Mí",
-      "description": "Soy un desarrollador full-stack apasionado con experiencia en tecnologías web modernas. Me encanta construir aplicaciones escalables y aprender nuevas tecnologías.",
-      "skills": {
-        "title": "Habilidades",
-        "frontend": "Frontend",
-        "backend": "Backend",
-        "tools": "Herramientas"
-      }
-    },
-    "contact": {
-      "title": "Contáctame",
-      "subtitle": "¡Trabajemos juntos!",
-      "email": "Correo",
-      "phone": "Teléfono",
-      "social": {
-        "github": "GitHub",
-        "linkedin": "LinkedIn"
-      }
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "about": "Sobre Mí",
+    "contact": "Contacto",
+    "login": "Ingresar"
+  },
+  "hero": {
+    "title": "Emiliano Vega",
+    "subtitle": "Pentester • Desarrollador Full Stack • Diseñador UI/UX"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description": "Soy un desarrollador full-stack apasionado con experiencia en tecnologías web modernas. Me encanta construir aplicaciones escalables y aprender nuevas tecnologías.",
+    "skills": {
+      "title": "Habilidades",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Herramientas"
+    }
+  },
+  "contact": {
+    "title": "Contáctame",
+    "subtitle": "¡Trabajemos juntos!",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
     }
   }
+}
