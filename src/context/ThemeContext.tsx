@@ -1,40 +1,40 @@
 import { createContext, useContext, useEffect, useState } from 'react';
 
-type Language = 'en' | 'es';
+type Theme = 'light' | 'dark';
 
-interface LanguageContextType {
-  language: Language;
-  toggleLanguage: () => void;
+interface ThemeContextType {
+  theme: Theme;
+  toggleTheme: () => void;
 }
 
-const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
-export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>(() => {
-    const savedLanguage = localStorage.getItem('language');
-    return (savedLanguage as Language) || 'en';
+export function ThemeProvider({ children }: { children: React.ReactNode }) {
+  const [theme, setTheme] = useState<Theme>(() => {
+    const savedTheme = localStorage.getItem('theme');
+    return (savedTheme as Theme) || 'dark';
   });
 
   useEffect(() => {
-    localStorage.setItem('language', language);
-    document.documentElement.lang = language;
-  }, [language]);
+    localStorage.setItem('theme', theme);
+    document.documentElement.classList.toggle('dark', theme === 'dark');
+  }, [theme]);
 
-  const toggleLanguage = () => {
-    setLanguage(prev => prev === 'en' ? 'es' : 'en');
+  const toggleTheme = () => {
+    setTheme(prev => prev === 'dark' ? 'light' : 'dark');
   };
 
   return (
-    <LanguageContext.Provider value={{ language, toggleLanguage }}>
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
       {children}
-    </LanguageContext.Provider>
+    </ThemeContext.Provider>
   );
 }
 
-export function useLanguage() {
-  const context = useContext(LanguageContext);
+export function useTheme() {
+  const context = useContext(ThemeContext);
   if (context === undefined) {
-    throw new Error('useLanguage must be used within a LanguageProvider');
+    throw new Error('useTheme must be used within a ThemeProvider');
   }
   return context;
 }
