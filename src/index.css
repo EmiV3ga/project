@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  @apply bg-background text-secondary antialiased;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.hero-background {
+  background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(37, 39, 40, 0.7);
+}
+
+@media (max-width: 640px) {
+  .mobile-card {
+    @apply rounded-lg border border-primary/10 p-4 mb-4;
+  }
+}
