@@ -5,12 +5,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#1A2D42',
-        secondary: '#2E4156',
-        accent: '#AAB7B7',
-        neutral: '#C0C8CA',
-        highlight: '#D48DD8'
-      }
+        primary: '#79826A',
+        secondary: '#E5D2B0',
+        accent: '#7D7757',
+        background: '#252728',
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        display: ['Manrope', 'system-ui', 'sans-serif'],
+      },
+      height: {
+        screen: ['100vh /* fallback */', '100dvh'],
+      },
+      minHeight: {
+        screen: ['100vh /* fallback */', '100dvh'],
+      },
     },
   },
   plugins: [],
